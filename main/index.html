@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Charlie Mizer</title>
+    <link rel="stylesheet" href="mainIndex.css">
+    <script src="mainjs.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            opacity: 0;
+            transition: opacity 10s;
+        }
+
+
+    </style>
+
+</head>
+<body onload="document.body.style.opacity='1'">
+    <div id = "main" class="container">
+
+        <div class="row">
+
+            <div class="col-lg-12" id="welcome">
+
+                Welcome
+
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="col-xs-3" id="left">
+
+                <img src="img/left.png" alt="left" class="leftrightimg" id="leftimg"/>
+
+            </div>
+
+            <div class="col-xs-6" id="selector">
+
+                Selector
+
+            </div>
+            <div class="col-xs-3" id="right">
+
+                <img src="img/right.png" alt="right" class="leftrightimg" id="rightimg"/>
+
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="col-lg-12" id="enter">
+
+                <button id="enterbtn">
+
+                    Enter
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <script>
+
+            document.getElementById("leftimg").addEventListener("click", goLeft);
+            document.getElementById("rightimg").addEventListener("click", goRight);
+            document.getElementById("enterbtn").addEventListener("click", enter);
+
+        </script>
+
+    </div>
+</body>
+</html>

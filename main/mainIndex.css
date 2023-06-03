@@ -1,0 +1,54 @@
+#welcome{
+
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-size: 15vw;
+    color: gold;
+
+}
+#left{
+
+    text-align: right;
+
+}
+
+.leftrightimg{
+
+    padding-top: 1px;
+    height: 4.5vw;
+
+}
+
+#selector{
+
+
+    text-align: center;
+    border: 2px solid #1fb8fd;
+    font-family: "Sofia", sans-serif;
+    font-size: 3vw;
+    color: gold;
+    border-radius: 8px;
+    padding: 0px;
+    max-height: 100vh;
+
+}
+#right{
+
+    text-align: left;
+
+}
+#enter{
+
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-size: 2vw;
+    color: gold;
+    padding-top: 15px;
+
+}
+#enterbtn{
+
+    border-style: none;
+    background-color: white;
+
+}
